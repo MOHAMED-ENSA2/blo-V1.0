@@ -1,0 +1,26 @@
+
+.postCard{
+    /* background: var(--second-color); */
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+
+    border-radius: 10px;
+}
+
+.postCard--link{
+    color: var(--third-color);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}
+
+.card--link {
+    font-size: 14px;
+    display: none;
+}
+
+.postCard--link:hover .card--link {
+    display: block;
+}

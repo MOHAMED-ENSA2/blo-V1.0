@@ -1,0 +1,79 @@
+:root{
+  --main-color : 0,0,0 ; 
+  --second-color :  #bfdef2 ;
+  --third-color : #0e8ddb ;
+  --fourth-color : 255,255,255 ;
+}
+
+.App {
+  min-height: 100vh;
+  color: rgb(var(--main-color));
+  font-size: 1.3rem;
+
+  background: #f5f4f9;
+}
+
+
+.logo{
+  width: 60px;
+  height: 60px;
+
+  cursor: pointer;
+}
+
+/* generic classes */
+
+.btn{
+  color: rgb(var(--main-color));
+  background: var(--second-color) ;
+  
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: var(--third-color) ;
+}
+
+.btn_curved{
+  border-radius: 5px;
+}
+
+
+.link{
+  all: unset;
+}
+
+
+
+/* small devices */
+@media (min-width : 576px ){
+  .App{
+
+    font-size: 1.2rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  .App{
+
+    font-size: 1.1rem;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .App{
+    font-size: 1rem;
+  }
+
+  
+  .logo{
+    width: 70px;
+    height: 70px;
+  }
+
+      
+}

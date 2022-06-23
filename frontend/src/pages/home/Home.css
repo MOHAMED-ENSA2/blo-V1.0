@@ -1,0 +1,68 @@
+.home{
+    padding: 3rem 5%;
+}
+
+.home--main{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+
+.home--aside{
+    margin-top: 2rem;
+}
+
+.home--topCtg-content{
+    margin: 1.5rem 0 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.home--topCtg button{
+    padding: 3px 7px;
+}
+.home--popular h1{
+    margin-bottom: 1.5rem;
+}
+.home--popular article{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+    margin: .7rem 0;    
+}
+
+.home--popular article:hover{
+    cursor : pointer ; 
+    color: rgb(var(--main-color));
+}
+
+.home--popular  i {
+    color: var(--third-color);
+}
+
+/* small devices */
+@media (min-width : 576px ){
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .home--aside{
+        margin-top: 0;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .home{
+        padding: 3rem 15%;
+        display: grid;
+        grid-template-columns: 60% 30%;
+        gap: 10%;
+    }
+    
+    
+}

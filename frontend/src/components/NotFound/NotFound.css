@@ -1,0 +1,25 @@
+.notfound{
+    margin: 3rem auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+
+}
+
+.notfound--error{
+    font-size: 5rem; 
+    font-weight: 700;
+
+}
+
+.notfound--message{
+    
+}
+
+.notfound--backhome{
+    color: var(--third-color);
+    cursor: pointer;
+    margin-left: 5px;
+}
